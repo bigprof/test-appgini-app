@@ -1,0 +1,16 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the Details_init() hook (in hooks/Details.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Details-Due_Date-<%%VALUE(ID)%%>" class="Details-Due_Date"><%%SELECT%%><%%VALUE(Due_Date)%%><%%ENDSELECT%%></td>
+		<td id="Details-Domain-<%%VALUE(ID)%%>" class="Details-Domain"><%%SELECT%%><%%VALUE(Domain)%%><%%ENDSELECT%%></td>
+		<td id="Details-Sub_Domains-<%%VALUE(ID)%%>" class="Details-Sub_Domains"><%%SELECT%%><%%VALUE(Sub_Domains)%%><%%ENDSELECT%%></td>
+		<td id="Details-Crazy_Domains-<%%VALUE(ID)%%>" class="Details-Crazy_Domains"><%%SELECT%%><%%VALUE(Crazy_Domains)%%><%%ENDSELECT%%></td>
+		<td id="Details-DNS_Provider-<%%VALUE(ID)%%>" class="Details-DNS_Provider"><%%SELECT%%><%%VALUE(DNS_Provider)%%><%%ENDSELECT%%></td>
+		<td id="Details-Yearly_Fee-<%%VALUE(ID)%%>" class="Details-Yearly_Fee text-right"><%%SELECT%%><%%VALUE(Yearly_Fee)%%><%%ENDSELECT%%></td>
+		<td id="Details-Company_Name-<%%VALUE(ID)%%>" class="Details-Company_Name"><%%SELECT%%><%%VALUE(Company_Name)%%><%%ENDSELECT%%></td>
+		<td id="Details-Contact-<%%VALUE(ID)%%>" class="Details-Contact"><%%SELECT%%><%%VALUE(Contact)%%><%%ENDSELECT%%></td>
+		<td id="Details-Email_Address-<%%VALUE(ID)%%>" class="Details-Email_Address"><%%SELECT%%><%%VALUE(Email_Address)%%><%%ENDSELECT%%></td>
